@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Indian Software Development Association (ISDA) | Official Student Developer Network</title>
+    <meta name="description" content="The Indian Software Development Association (ISDA) is India's premier national-level student-driven software development organization. Join thousands of young innovators mastering coding, open-source development, tech leadership, and collaborative engineering.">
+    <meta name="keywords" content="ISDA, Indian Software Development Association, student developers India, coding community India, youth technology network, software engineering students, learn coding India, student hackathons, appmakers, web development community">
+    <meta name="author" content="ISDA National Leadership">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://yourdomain.org/"> <meta name="google-site-verification" content="d5Qj0UVyepRyOS4rRLwbpGSw-cDMpFp1q2AgPQpz-3M">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.org/">
+    <meta property="og:title" content="Indian Software Development Association (ISDA) | Empowering Student Developers">
+    <meta property="og:description" content="Join ISDA, India's largest student-led community for software engineering, open-source projects, and technical leadership. For the Students, By the Students, To the Students.">
+    <meta property="og:image" content="https://yourdomain.org/assets/og-image.png"> <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Indian Software Development Association (ISDA)">
+    <meta name="twitter:description" content="Connecting youth tech talent across India through code, collaboration, and national mentorship.">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Indian Software Development Association",
+      "alternateName": "ISDA",
+      "description": "A national-level student-driven organization in India focused on coding, programming innovation, leadership, and collaborative software development ecosystems.",
+      "url": "https://yourdomain.org/",
+      "logo": "https://yourdomain.org/assets/logo.png",
+      "foundingDate": "2024",
+      "knowsAbout": ["Software Development", "Computer Science", "Open Source Development", "Hackathons", "Tech Leadership"],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "indian-software-development-association@googlegroups.com",
+        "contactType": "Community Support"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IN"
+      },
+      "sameAs": [
+        "https://discord.gg/3mEjM8zV"
+      ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary-color: #0b1b5a;
+            --secondary-color: #2563eb;
+            --accent-success: #16a34a;
+            --text-dark: #1c1c1c;
+            --bg-light: #f5f7fb;
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: var(--bg-light);
+            color: var(--text-dark);
+            scroll-behavior: smooth;
+        }
+
+        /* HEADER & HERO */
+        header {
+            background: linear-gradient(135deg, rgba(255, 153, 51, 0.15), rgba(255, 255, 255, 0.9), rgba(19, 136, 8, 0.15)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><circle cx="50" cy="50" r="1" fill="%230b1b5a" opacity="0.1"/></svg>');
+            text-align: center;
+            padding: 100px 20px;
+            border-bottom: 4px solid var(--primary-color);
+        }
+
+        header h1 {
+            font-size: 3.2rem;
+            color: var(--primary-color);
+            font-weight: 800;
+            margin: 0 0 15px 0;
+            letter-spacing: -1px;
+        }
+
+        header p {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #4b5563;
+            max-width: 700px;
+            margin: 0 auto 30px auto;
+        }
+
+        .badge {
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        /* STICKY NAVIGATION */
+        nav {
+            background: var(--primary-color);
+            position: sticky;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 12px;
+            gap: 8px;
+            z-index: 1000;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+            padding: 10px 18px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background: var(--accent-success);
+        }
+
+        /* MAIN CONTENT STRUCTURE */
+        main {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            padding: 80px 20px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        section:last-of-type {
+            border-bottom: none;
+        }
+
+        h2 {
+            text-align: center;
+            color: var(--primary-color);
+            font-size: 2.6rem;
+            font-weight: 800;
+            margin-bottom: 15px;
+            letter-spacing: -0.5px;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #6b7280;
+            max-width: 600px;
+            margin: 0 auto 40px auto;
+            font-size: 1.1rem;
+        }
+
+        p.content-text {
+            font-size: 1.15rem;
+            line-height: 1.85;
+            text-align: justify;
+            color: #374151;
+            margin-bottom: 25px;
+        }
+
+        /* CARDS & GRIDS */
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+            margin-top: 30px;
+        }
+
+        @media(min-width: 768px) {
+            .grid { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        @media(min-width: 1100px) {
+            .grid { grid-template-columns: repeat(3, 1fr); }
+        }
+
+        .card {
+            background: var(--white);
+            padding: 28px;
+            border-radius: 18px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            border-top: 5px solid var(--primary-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+            font-size: 1.3rem;
+        }
+
+        .card .role-badge {
+            display: inline-block;
+            background: #eff6ff;
+            color: var(--secondary-color);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .card .contact-meta {
+            font-size: 0.9rem;
+            color: #4b5563;
+            margin-top: 10px;
+            word-break: break-all;
+        }
+
+        /* CORE PILLARS LIST */
+        .pillars-list {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+        @media(min-width: 600px) {
+            .pillars-list { grid-template-columns: repeat(2, 1fr); }
+        }
+        .pillars-list li {
+            background: #edf2f7;
+            padding: 15px 20px;
+            border-radius: 10px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .pillars-list li::before {
+            content: "⚡";
+        }
+
+        /* FAQ ACCORDION STRUCTURE */
+        .faq-item {
+            background: var(--white);
+            margin-bottom: 15px;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+        }
+
+        .faq-question {
+            font-weight: 700;
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+        }
+
+        .faq-answer {
+            color: #4b5563;
+            line-height: 1.6;
+        }
+
+        /* CALL TO ACTION BUTTON */
+        .cta-container {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .apply-btn {
+            display: inline-block;
+            padding: 18px 45px;
+            border-radius: 999px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 800;
+            font-size: 1.2rem;
+            box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .apply-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(22, 163, 74, 0.4);
+            background: linear-gradient(135deg, var(--accent-success), var(--primary-color));
+        }
+
+        /* CHAT UTILITY */
+        .chat-float {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background: #22c55e;
+            color: var(--white);
+            padding: 16px 22px;
+            border-radius: 999px;
+            cursor: pointer;
+            font-weight: 700;
+            box-shadow: 0 10px 25px rgba(34,197,94,0.4);
+            animation: pulse 2s infinite;
+            z-index: 2000;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(34,197,94,0.6); }
+            70% { box-shadow: 0 0 0 20px rgba(34,197,94,0); }
+            100% { box-shadow: 0 0 0 0 rgba(34,197,94,0); }
+        }
+
+        .chat-popup {
+            position: fixed;
+            bottom: 95px;
+            right: 25px;
+            width: 380px;
+            height: 550px;
+            background: var(--white);
+            border-radius: 20px;
+            overflow: hidden;
+            display: none;
+            flex-direction: column;
+            box-shadow: 0 25px 60px rgba(0,0,0,0.25);
+            z-index: 2000;
+            border: 1px solid #e5e7eb;
+        }
+
+        .chat-header {
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 700;
+        }
+
+        .chat-header span {
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+
+        .chat-popup iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #060d2a;
+            color: #9ca3af;
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 0.95rem;
+        }
+        footer a {
+            color: var(--white);
+            text-decoration: underline;
+        }
+
+        @media(max-width: 500px) {
+            .chat-popup {
+                width: 92%;
+                height: 75%;
+                right: 4%;
+                bottom: 90px;
+            }
+            header h1 { font-size: 2.2rem; }
+            h2 { font-size: 2rem; }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <span class="badge">National Student Movement</span>
+        <h1>Indian Software Development Association</h1>
+        <p>For the Students • By the Students • To the Students</p>
+    </header>
+
+    <nav aria-label="Main Navigation">
+        <a href="#about">About ISDA</a>
+        <a href="#vision">Vision & Strategy</a>
+        <a href="#initiatives">Initiatives</a>
+        <a href="#leaders">National Board</a>
+        <a href="#regions">Regional Zones</a>
+        <a href="#states">State Chapters</a>
+        <a href="#faq">FAQs</a>
+        <a href="#join">Apply Now</a>
+        <a href="#contact">Contact Support</a>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>About ISDA</h2>
+            <p class="section-subtitle">Bridging the deep chasm between engineering academia and real-world industrial software ecosystems.</p>
+            
+            <p class="content-text">
+                The <strong>Indian Software Development Association (ISDA)</strong> operates as a highly structured, national-level elite student development framework. We are unified by a single vision: to establish India's most comprehensive peer-led technology incubator environment. Designed explicitly for students pursuing computer engineering, applications, data sciences, and design structures, ISDA fosters high-octane engineering logic.
+            </p>
+            
+            <p class="content-text">
+                Unlike typical campus coding cells, ISDA coordinates a multi-tier infrastructure linking hundreds of collegiate tech talents across distinct geographic boundaries. By offering practical, deep-dive development frameworks, students accelerate their transitions from basic syntax logic to structural systems engineering, production architecture deployment, and decentralized team collaboration patterns.
+            </p>
+
+            <ul class="pillars-list">
+                <li>Peer-to-Peer Technical Code Reviews</li>
+                <li>Production-Ready Open Source Portfolios</li>
+                <li>System Architecture Design Frameworks</li>
+                <li>Agile & Product Management Methodologies</li>
+            </ul>
+        </section>
+
+        <section id="vision">
+            <h2>Vision & Strategic Mission</h2>
+            <p class="section-subtitle">Our architectural path for shaping tomorrow's tech architects and engineering leaders.</p>
+            
+            <p class="content-text">
+                <strong>Our Ultimate Vision:</strong> To turn Indian engineering student cohorts from technology consumers into global open-source creators, setting milestones across continuous software deployment models. 
+            </p>
+            <p class="content-text">
+                <strong>Our Actionable Mission:</strong> To democratize high-end computer science skill development pipelines. We break down historical economic, technical, and regional knowledge silos, providing access to top-tier mentorship, industrial-level project design sandboxes, and modern product incubation methodologies to every remote corner of the country.
+            </p>
+        </section>
+
+        <section id="initiatives">
+            <h2>Core Pillars & Initiatives</h2>
+            <p class="section-subtitle">Discover how ISDA creates massive practical impact for developers nationwide.</p>
+            <div class="grid">
+                <div class="card">
+                    <div class="role-badge">Engineering</div>
+                    <h3>Open-Source Pipelines</h3>
+                    <p style="font-size:0.95rem; line-height:1.6; color:#4b5563;">Collaborating across Git structures to maintain high-traffic frameworks, fixing real core issues while mastering version controls.</p>
+                </div>
+                <div class="card">
+                    <div class="role-badge">Hackathons</div>
+                    <h3>National Sandboxes</h3>
+                    <p style="font-size:0.95rem; line-height:1.6; color:#4b5563;">High-intensity sprints testing system resiliency, logical paradigms, and functional prototyping under tight schedules.</p>
+                </div>
+                <div class="card">
+                    <div class="role-badge">Incubation</div>
+                    <h3>Leadership Incubator</h3>
+                    <p style="font-size:0.95rem; line-height:1.6; color:#4b5563;">Preparing developers to take on technical manager, project owner, and system architect positions confidently.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="leaders">
+            <h2>National Leadership Board</h2>
+            <p class="section-subtitle">The executive operational core driving corporate scaling and engineering quality strategy.</p>
+
+            <div class="grid">
+                <div class="card">
+                    <div class="role-badge">Executive Branch</div>
+                    <h3>Myth</h3>
+                    <p><strong>National President</strong></p>
+                    <p style="font-size: 0.9rem; color:#6b7280;">Oversees national execution arrays, operational roadmaps, and strategic community alliances.</p>
+                </div>
+
+                <div class="card">
+                    <div class="role-badge">Technology Branch</div>
+                    <h3>Vishal K (vishal1454)</h3>
+                    <p><strong>Vice President / Chief Technology Officer</strong></p>
+                    <div class="contact-meta">📧 vishal@appmakers.work.gd</div>
+                </div>
+
+                <div class="card">
+                    <div class="role-badge">Operations Branch</div>
+                    <h3>B. S. Bharani</h3>
+                    <p><strong>General Secretary / North Zone Head</strong></p>
+                    <div class="contact-meta">📧 bharani@appmakers.work.gd</div>
+                </div>
+
+                <div class="card">
+                    <div class="role-badge">Technology Branch</div>
+                    <h3>Harish Pillai V (appmakerharresh)</h3>
+                    <p><strong>Assistant CTO / West Zone Head</strong></p>
+                    <div class="contact-meta">📧 harish@appmakers.work.gd</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="regions">
+            <h2>Regional Zone Coordination</h2>
+            <p class="section-subtitle">Our structural zoning ensures efficient localized development sprints and community support.</p>
+            
+            <p class="content-text">
+                To guarantee optimal localized event logistics, workshops, and resource delivery networks, ISDA operates across specialized geographic macro-zones. Each zone is directly managed by an appointed Regional Director who reports directly to the National Board.
+            </p>
+
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));">
+                <div class="card" style="border-left: 4px solid var(--accent-success);">
+                    <h4>North-East India Zone</h4>
+                    <p><strong>Director:</strong> Kasinath</p>
+                </div>
+                <div class="card" style="border-left: 4px solid var(--accent-success);">
+                    <h4>East India Zone</h4>
+                    <p><strong>Director:</strong> VB Lakshan Raj</p>
+                </div>
+                <div class="card" style="border-left: 4px solid var(--accent-success);">
+                    <h4>North India Zone</h4>
+                    <p><strong>Director:</strong> B. S. Bharani</p>
+                </div>
+                <div class="card" style="border-left: 4px solid var(--accent-success);">
+                    <h4>West India Zone</h4>
+                    <p><strong>Director:</strong> Harish Pillai V</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="states">
+            <h2>State Leadership Portfolios</h2>
+            <p class="section-subtitle">On-the-ground leaders engineering hyper-local technical growth across state borders.</p>
+
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+                <div class="card">📍 <strong>Andhra Pradesh</strong><br><span style="color:#555;">Mithun Kesav P</span><br><small>mithun@appmakers.work.gd</small></div>
+                <div class="card">📍 <strong>Tamil Nadu</strong><br><span style="color:#555;">Vishal K (vishal1454)</span><br><small>vishal@appmakers.work.gd</small></div>
+                <div class="card">📍 <strong>Karnataka</strong><br><span style="color:#555;">Harresh (appmakerharresh)</span><br><small>harresh@appmakers.work.gd</small></div>
+                <div class="card">📍 <strong>Kerala</strong><br><span style="color:#555;">Harshavardhan</span><br><small>harshavardhan@appmakers.work.gd</small></div>
+                <div class="card">📍 <strong>Delhi NCR</strong><br><span style="color:#555;">Dashrath</span><br><small>dashrath@appmakers.work.gd</small></div>
+                <div class="card">📍 <strong>Goa</strong><br><span style="color:#555;">Sourav</span><br><small>sourav@appmakers.work.gd</small></div>
+            </div>
+        </section>
+
+        <section id="faq">
+            <h2>Frequently Asked Questions (FAQs)</h2>
+            <p class="section-subtitle">Everything you need to know about India's fastest-growing student-led dev group.</p>
+            
+            <div class="faq-item">
+                <div class="faq-question">What is ISDA and who can join?</div>
+                <div class="faq-answer">ISDA stands for the Indian Software Development Association. It is a completely student-run national body open to any student across India who is passionate about coding, system development, design, and product engineering.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Are there any membership fees associated with ISDA?</div>
+                <div class="faq-answer">No, ISDA is completely free and accessible. It works on an open peer-learning community model, built explicitly "For the Students, By the Students, To the Students."</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How does ISDA bridge academic and corporate gaps?</div>
+                <div class="faq-answer">We give students real experience with complex software setups, open-source work, system infrastructure planning, and project management. This teaches skills that traditional college textbooks rarely cover.</div>
+            </div>
+        </section>
+
+        <section id="join">
+            <h2>Join the ISDA Developer Matrix</h2>
+            <p class="section-subtitle">Take your software engineering skills to a national stage. Start contributing today.</p>
+            
+            <p class="content-text" style="text-align: center; max-width: 800px; margin: auto;">
+                Gain instant access to verified development roadmaps, live group review boards, open-source code repositories, national technical hackathons, and long-term tech mentorship tracks.
+            </p>
+
+            <div class="cta-container">
+                <a class="apply-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSe7XJv_-YCnv-Zs0hYqI0c4PQ1tz7t1nX-NYH1qDSxWyjcMKw/viewform" target="_blank" rel="noopener noreferrer">
+                    Submit National Membership Application
+                </a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Connect & Collaborate</h2>
+            <p class="section-subtitle">Reach out for organizational partnerships, regional registrations, or technical developer help.</p>
+
+            <div class="grid" style="grid-template-columns: 1fr 1fr; gap:30px;">
+                <div class="card" style="border-top-color: #22c55e;">
+                    <h3>Community Channels</h3>
+                    <p style="font-size:0.95rem; text-align:left;">
+                        📢 <strong>Google Groups:</strong><br>
+                        <span style="font-size:0.85rem; color: #2563eb;">indian-software-development-association@googlegroups.com</span>
+                    </p>
+                    <p style="font-size:0.95rem; text-align:left;">
+                        💬 <strong>Discord Lounge:</strong><br>
+                        <a href="https://discord.gg/3mEjM8zV" target="_blank" rel="noopener noreferrer" style="color:#2563eb; font-weight:700;">Join Official Server Link</a>
+                    </p>
+                </div>
+
+                <div class="card" style="border-top-color: var(--secondary-color);">
+                    <h3>Direct Registry Contact Nodes</h3>
+                    <ul style="font-size: 0.9rem; padding-left: 20px; line-height: 1.8; color:#4b5563;">
+                        <li>vishal@appmakers.work.gd</li>
+                        <li>bharani@appmakers.work.gd</li>
+                        <li>harish@appmakers.work.gd</li>
+                        <li>kasinath@appmakers.work.gd</li>
+                        <li>lakshan@appmakers.work.gd</li>
+                        <li>mithun@appmakers.work.gd</li>
+                        <li>harresh@appmakers.work.gd</li>
+                        <li>dashrath@appmakers.work.gd</li>
+                        <li>sourav@appmakers.work.gd</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Indian Software Development Association (ISDA). Engineered Peer-to-Peer. All Rights Reserved.</p>
+        <p>Powered by Student Developers via <a href="https://appmakers.work.gd" target="_blank" rel="noopener">AppMakers Network</a></p>
+    </footer>
+
+    <div class="chat-float" onclick="openChat()" aria-label="Open Community Chat">💬 Chat</div>
+
+    <div id="chatPopup" class="chat-popup">
+        <div class="chat-header">
+            <span>ISDA Live Portal Support</span>
+            <span onclick="closeChat()" aria-label="Close Chat Window">✖</span>
+        </div>
+        <iframe src="https://appmakervishal.github.io/whatsapp/" title="ISDA Communication Interface Framework"></iframe>
+    </div>
+
+    <script>
+        function openChat() {
+            document.getElementById("chatPopup").style.display = "flex";
+        }
+        function closeChat() {
+            document.getElementById("chatPopup").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
